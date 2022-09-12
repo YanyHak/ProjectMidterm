@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.banner{
+    width: 100%;
+    height:100vh;
+    position:relative;
+    overflow: hidden;    
+
+}
+.slider{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:0;
+}
+#slideimg{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    position:absolute;
+    top:0;
+
+
+}
+.navbar{
+    width: 85%;
+    display:flex;
+    align-items:center;
+    margin:auto;
+
+
+}
+.logo{
+    flex-basis: 15%;
+    width:120px;
+    cursor:pointer;
+}
+.menu-icon{
+    flex:1;
+    align-items:center;
+    text-align:left;
+    margin-top: 40px;
+
+}
+.menu-icon{
+    width:20px;
+    margin-right:80px;
+    cursor:pointer;
+    float:right;
+}
+.content{
+    width: 60%;
+    margin:160px auto 0;
+    text-align:center;
+    color:#fff;
+}
+.content h1{
+    font-size: 60px;
+    color:linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    /* background-blend-mode: multiply,multiply; */
+}
+.content h3{
+    width:80%;
+    margin:20px auto 100px;
+    font-weight:100;
+    font-family:Khmer OS Siemreap;
+    font-weight: bold;
+   
+
+}
+button{
+    width: 200px;
+    padding:15px 0;
+    text-align: center;
+    margin:0;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid #fe7250;
+    background: #fe7250 ;
+    color:#fff;
+    cursor:pointer;
+    transition: background 0.5s;
+    box-shadow: 2px 2px 2px black;
+
+
+}
+button:hover{
+    background: transparent;
+    border:2px solid #fff;
+    
+
+}
+.btn-2{
+    background: transparent;
+    border:2px solid #fff;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px black;
+
+}
+.btn-2:hover{
+    background: #fe7250;
+    border:2px solid #fe7250;
+
+}
+/* footer */
+/* =============Footer============ */
+footer{
+    width:100%;
+    height: 500px;
+    background-color: black;
+    
+}
+

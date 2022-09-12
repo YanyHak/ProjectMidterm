@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:#d3dde4;
+    height: 550px;
+}
+.yany {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    width: 1260px;
+    height: 50px;
+    border: 1px solid black;
+    transition: transform .5s;
+    animation: 5s backgroundchang infinite;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.menu1 {
+    width: 1260px;;
+    height: 450px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    border-radius: 20px;
+
+}
+
+.phone {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    transition: transform .5s;
+    animation: 5s backgroundchang infinite;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+
+
+}
+
+.phone::after,
+.phone::before {
+    content: ;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgb(205, 64, 196);
+    transition: transform .5s;
+
+}
+
+.phone :hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 2px 2px 2px gray;
+}
+
+.phone:hover::after {
+    transform: translate(5px, 5px);
+}
+
+.phone:hover::before {
+    transform: translate(10px, 10px);
+}
+
+@keyframes backgroundchang {
+    0% {
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    }
+
+    50% {
+        background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+    }
+
+    100% {
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    }
+
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.phone :hover {
+    border: 1px solid rgb(62, 90, 215);
+}
+
+p {
+    padding-left: 8px;
+}
+
+.menu2 {
+    width: 1260px;
+    height: 450px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    border-radius: 20px;
+}
+
+
+
+.back {
+    width: 30%;
+    height: 130px;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 300px;
+    margin-top: 10px;
+    font-family: AKbalthom Ream;
+    color: rgb(17, 16, 16);
+    text-align: justify;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 8px;
+    animation: 5s backgroundchang infinite;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.back1 {
+    margin-top: 20px;
+    width: 30%;
+    height: 130px;
+    font-family: AKbalthom Ream;
+    color: rgb(17, 16, 16);
+    text-align: justify;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 8px;
+    animation: 5s backgroundchang infinite;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+.map {
+    align-items: center;
+    padding-top: 50px;
+}
+
+.animation {
+    margin-bottom: 100px;
+}
+
+.button {
+    margin: 380px 500px 0px;
+}
+
+.price {
+    color: red;
+    background-color: rgb(247, 238, 238);
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    top: 65px;
+
+}
+
+.btn {
+    border: 5px solid red;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    /* margin-bottom: 35px; */
+    top: 11px;
+    margin-left: 235px;
+    padding: 10px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px blue;
+    font-family: 'Rubik Moonrocks', cursive;
+    cursor: pointer;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Amatic+SC:wght@700&family=Black+Ops+One&family=Cormorant+SC:wght@600;700&family=Fredericka+the+Great&family=Mouse+Memoirs&family=Noto+Sans+Khmer:wght@400;900&family=Noto+Serif+Khmer:wght@100;900&family=PT+Serif:ital,wght@1,700&family=Rampart+One&family=Rubik+Moonrocks&family=Rye&display=swap');
+
+p {
+    font-family: 'Alumni Sans Inline One', cursive;
+
+}
+footer{
+    margin-top:1000px;
+}

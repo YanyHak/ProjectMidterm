@@ -1,0 +1,26 @@
+.top img{
+    width: 1000px;
+    height:350px ;
+    margin-left: 385px;
+    
+}
+.coffee img{
+    width: 200px;
+    height: 1000px;
+}
+
+.text p{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    left: 175px;
+    bottom: 900px;
+}
+
+.pic img{
+    width: 200px;
+    height: 1000px;
+    margin-left: 1500px;
+    position: relative;
+    bottom: 1030px;
+}

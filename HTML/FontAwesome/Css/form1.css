@@ -1,0 +1,92 @@
+
+body{
+    background-image: url("https://c.tenor.com/ZYIAgZvr1CkAAAAC/you-gotta-pay-saturday-night-live.gif");
+   
+
+   background-repeat: no-repeat;
+  background-size:1700px 700px;
+    
+}
+.div1{
+    background-color: #db8808;
+    width: 500px;
+    height: 30px;
+    margin-left: 500px;
+    
+
+}
+.div1 h3{
+    color: #f3d42c;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 3px;
+}
+form{
+    box-sizing: border-box;
+    width: 442px;
+    /* background-color: #222; */
+    color: gold;
+    font-size: medium;
+    margin-left: 500px;
+
+}
+label{
+    color: yellow; 
+    margin-left: 40px;
+    width: 30%;
+    float: left;
+
+}
+.div2 label.a{
+    color: yellow; 
+    margin-left: 2px;
+
+
+}
+input [type=text]{
+    width: 80%;
+    float: right;
+}
+.div2{
+    background-color: #222536;
+    width: 500px;
+    height: 420px;
+    margin-left: 500px;
+}
+.checkbox{
+    margin-left: 11.5rem;
+}
+.first{
+    margin-top: 10px;
+}
+.div3{
+    background-color: #db8808;
+    width: 500px;
+    height: 50px;
+    margin-left: 500px;
+
+}
+.submit{
+    background-color: #60b456;
+    color: white;
+    width: 15%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 340px;
+}
+.reset{
+    background-color: #3e88c7;
+    color: white;
+    width: 15%;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+
+}
+
+.div3 input{
+    border-radius: 7px;
+    border: none;
+    margin-right: 5px;
+}

@@ -1,0 +1,444 @@
+/* ===============Contents===============  */
+/* box Map */
+.box-map{
+    width:85%;
+    height:400px;
+    margin:auto;
+    margin-top: 100px;
+}
+.box-get{
+    width:85%;
+    height:700px;
+    background-color:whitesmoke;
+    margin:auto;
+    margin-top: 100px;
+    position:relative;
+}
+.box-get .boxLeft-get{
+    width:60%;
+    height:700px;
+    background-color:whitesmoke;
+    float:left;
+    padding-top:20px;
+    position: relative;
+    /* justify-content: center;
+    display:flex;
+    align-items:center; */
+
+}
+
+.boxLeft-get textarea{
+   border: none;
+    margin-left:80px;
+}
+.boxLeft-get input[type=text]{
+    border:none;
+    width:40%;
+    height:50px;
+    margin:auto;
+    margin-left:80px;
+    margin-top:20px;
+    float:left;
+}
+.boxLeft-get input[type=email]{
+    border:none;
+    width:40%;
+    height:50px;
+    margin:auto;
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+}
+.boxLeft-get input[type=text]:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+.boxLeft-get textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+#text-subject{
+    border:none;
+    width:84%;
+    height:50px;
+    margin:auto;
+    margin-top:20px;
+    margin-left:75px;
+    float:left;
+}
+.boxLeft-get .send{
+    width:90px;
+    height:50px;
+    margin-top:50px;
+    margin-right: 300px;
+    border:none;
+    background-color: #58D68D;
+    margin-left:95px;
+}
+.boxLeft-get .send:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+.boxLeft-get ::placeholder{
+    font-size:15px;
+}
+
+.boxLeft-get .send:hover{
+    background-color: red;
+    transition:0.5s;
+}
+.box-get .boxRight-get{
+    width:30%;
+    height:700px;
+    background-color:whitesmoke;
+    float:left;
+    position:absolute;
+    right:0;
+}
+.boxRight-get .box-Buttonwood{
+    width: 80%;
+    height: 50px;
+    margin:auto;
+    margin-top:20px;
+
+}
+.box-Buttonwood .box-pic{
+    height:100%;
+    width: 20%;
+}
+.box-pic .fa-solid{
+    font-size:30px;
+    padding: 20px;
+    color: gray;
+    
+}
+.box-Buttonwood .box-text{
+    height:100%;
+    width: 60%;
+    margin-left: 90px;
+    margin-top: -35px;
+    float:left;
+}
+.box-text p{
+    font-size: 14px;
+    color: gray;
+}
+.box-text h5{
+    font-size: 15px;
+   
+}
+.boxRight-get p{
+  color:gray;
+}
+
+
+
+
+
+
+
+/* ===============Contents===============  */
+/* ===================Footer=================== */
+footer{
+    margin-top: 120px;
+    width: 100%;
+    height: 550px;
+    background-color: black;
+  }
+  footer .box-travel{
+    width: 300px;
+    height: 60%;
+    margin-left: 115px;
+    margin-top: 50px;
+    float: left;
+  }
+  .box-travel .box-logo{
+    width: 300px;
+    height: 70px;
+    float: left;
+  }
+  .box-logo img{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  .box-travel .box-text{
+    width: 300px;
+    height: 200px;
+    float: left;
+  }
+  .box-text p{
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+  }
+  .box-text p a{
+    text-decoration: none;
+    color: gray;
+  }
+  .box-text p a:hover{
+   cursor: pointer;
+   color:red;
+   transition: 0.5s;
+  }
+  .box-travel .box-fontInfo{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: -20px;
+    margin-left:-40px;
+  }
+  .facebook .fa-brands {
+    padding-left:40px;
+    color:gray;
+  }
+  .facebook .fa-brands:hover {
+    color:red;
+    transition: 0.5s;
+  }
+  .twiter .fa-brands {
+    padding-left:20px;
+    color:gray;
+  }
+  .twiter .fa-brands:hover {
+    color:red;
+    transition: 0.5s;
+  }
+  .instagram .fa-brands {
+    padding-left:20px;
+    color:gray;
+  }
+  .instagram .fa-brands:hover {
+    color:red;
+    transition: 0.5s;
+  }
+  .pinterest .fa-brands {
+    padding-left:20px;
+    color:gray;
+  }
+  .pinterest .fa-brands:hover {
+    color:red;
+    transition: 0.5s;
+  }
+  .youtube .fa-brands {
+    padding-left:20px;
+    color:gray;
+  }
+  .youtube .fa-brands:hover {
+    color:red;
+    transition: 0.5s;
+  }
+  footer .box-Company{
+    width: 200px;
+    height: 70%;
+    /* background-color: #ccc; */
+    margin-left: 30px;
+    margin-top: 50px;
+    float: left;
+  }
+  .box-Company .box-textcompany{
+    width: 200px;
+    height: 70px;
+    /* background-color: red; */
+    float: left;
+  }
+  .box-textcompany h2{
+   color:white;
+   font-size: 20px;
+   padding-top: 10px;
+   padding-left: -;
+  }
+  .box-Company p{
+    color:gray;
+    font-weight: bold;
+   }
+   .box-Company a {
+    text-decoration: none;
+  
+   }
+   .box-Company a p:hover {
+    color:red;
+    
+   }
+  footer .box-Popular_Destination{
+    width: 340px;
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 50px;
+    float: left;
+  }
+  .box-Popular_Destination .box-textpopular{
+    width: 340px;
+    height: 70px;
+    float: left;
+  }
+  .box-textpopular h2{
+    color:white;
+    font-size: 20px;
+    padding-top: 10px;
+   }
+   .box-Popular_Destination .box-leftPopular{
+    width:50%;
+    height:200px;
+    float: left;
+   }
+   .box-Popular_Destination .box-rightPopular{
+    width:50%;
+    height:200px;
+    float: left;
+   }
+   .box-Popular_Destination a{
+    text-decoration: none;
+   }
+   .box-leftPopular p{
+    color: gray;
+    font-weight: bold;
+  
+   }
+   .box-leftPopular p:hover{
+    color:red;
+    transition: 0.5s;
+   }
+   .box-rightPopular p{
+    color: gray;
+    font-weight: bold;
+  
+   }
+   .box-rightPopular p:hover{
+    color:red;
+    transition: 0.5s;
+   }
+   footer .box-picture{
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+   }
+   .box-picture .box-textpicture{
+    width: 350px;
+    height: 70px;
+    float: left;
+  }
+  .box-textpicture h2{
+    font-size:20px;
+    color:white;
+    padding-top: 10px;
+  }
+  .box-picture .box-toppic{
+    width: 350px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+  }
+   .box-toppic .box-topImg1{
+    width: 30%;
+    height: 100px;
+    float: left;
+    border-radius: 4px;
+   
+  }
+  .box-topImg1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .box-toppic .box-topImg2{
+    width: 30%;
+    height: 100px;
+    float: left;
+    border-radius: 4px;
+    margin-left: 17px;
+   
+  }
+  .box-topImg2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .box-toppic .box-topImg3{
+    width: 30%;
+    height: 100px;
+    float: left;
+    border-radius: 4px;
+    margin-left: 17px;
+   
+  }
+  .box-topImg3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  .box-picture .box-bottompic{
+    width: 350px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+  }
+  .box-bottompic .box-bottompic1{
+    width: 30%;
+    height: 100px;
+    float: left;
+    border-radius: 4px;
+  }
+  .box-bottompic1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .box-bottompic .box-bottomImg2{
+    width: 30%;
+    height: 100px;
+    float: left;
+    border-radius: 4px;
+    margin-left: 17px;
+  }
+  .box-bottomImg2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .box-bottompic .box-bottomImg3{
+    width: 30%;
+    height: 100px;
+    float: left;
+    border-radius: 4px;
+    margin-left: 17px;
+  }
+  .box-bottomImg3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  footer .line-bottom{
+    width: 85%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 45px;
+    float: left;
+    margin-left: 110px;
+  }
+  footer .box-bottom_text{
+    width: 85%;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 110px;
+  }
+  .box-bottom_text p{
+    color: gray;
+    text-align: center;
+  }
+  .box-bottom_text p a{
+    text-decoration: none;
+    color:gray;
+  }
+  .box-bottom_text p a:hover{
+    color:red;
+  }
+  /* ===================Footer=================== */

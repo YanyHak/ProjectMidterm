@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body{
+    background-image: url("https://cdn.dribbble.com/users/408357/screenshots/4318274/dribbbble-gif2.gif");
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    width: 100%;
+    height: 150px;
+    background-color:	Silver;
+    margin: auto;
+    margin-bottom: 150px;
+    border-radius: 20px;
+    box-shadow: 5px5px 5px rgb(109, 105, 105);
+   
+  
+}
+ul{
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+}
+.menu ul li{
+    float:left;
+    margin-right: 5px;                                    
+    padding-top: 30px;
+    text-align: center;
+}
+/* a កំណត់លើlink ,text-decoration: none;ប្រើសម្រាប់លុបបន្ទាត់នៅពីក្រោម
+link ,កំណត់display: block;បែបនេះដើម្បីអាចកំណត់ Padding បាន 
+transitionប្រើសម្រាប់ឱ្យslow */
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px 40px;
+    margin: auto;
+    font-size: 20;
+    font-family:'Monoton', cursive;
+    transition: 0.20s;
+    -moz-animation: alternate;
+   
+}
+/* ប្រើhoverនៅពេលយើងចុចmouse ប៉ះទៅលើlink ដើម្បីកំនត់ពណ៏
+border-radiusសម្រាប់កំណត់ឱ្យផ្ទៃប៉ះទៅនឹងlinkមានការកោង */
+.menu ul li a:hover {
+    background-color: Gray ;
+    border-radius: 5px;
+}
+/* .active{
+    background-color:  Gray;  
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 100px;
+} */
+.active{
+    text-align: center;
+}
+h1{
+    text-align: center;
+   margin-bottom: 30px;
+   padding-left: 20px;
+}
+.menu1{
+
+    display: block;
+    width: 1000px;
+    height: 600px;
+    background-color:  rgb(242, 215, 217);
+    margin:auto ;
+    padding: 5px 5px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cormorant+SC:wght@600&family=Noto+Serif+Khmer:wght@900&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cormorant+SC:wght@600&family=Rubik+Moonrocks&display=swap');
+.menu2{
+    font-family: 'Cormorant SC', serif ;`
+    
+}
+.menu3{
+    width: 1000px;
+    height: 70px;
+    background-color:	Silver;
+    margin: auto;
+    padding: 7px;
+    font-family:'Monoton', cursive;
+    text-align: center;
+   
+
+}
+.menu1{
+
+    display: block;
+    width: 1000px;
+    height: 1500px;
+    background-color:  rgb(242, 215, 217);
+    margin:auto ;
+    padding: 5px 5px;
+
+}
+.menu4{
+
+    display: block;
+    width: 1000px;
+    height: 650px;
+    background-color:  rgb(242, 215, 217);
+    margin:auto ;
+    padding: 5px 5px;
+
+}
+tb{
+    list-style-type: none;
+}
+.menu5{
+    width: 900px;
+    height: 50px;
+    background-color:	Silver;
+    margin: auto;
+    padding: 10px;
+    align-items: baseline;
+  
+}
+.phone{
+    width: 40px;
+    height: 900px;
+}
+.name{
+    margin-bottom: 100px;
+    width:500px;
+    height: 100px;
+    border:1px solid black;
+    border-radius: 20px;
+    border: 5px 5px 5px rgb(32, 29, 29);
+    background-color:lightblue;
+    margin: auto;
+}
+h1{
+    text-align:center;
+    font-family: 'Cormorant SC', serif ;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    border:1px solid black;
+    background-color: black;
+    margin-top: 1100px;
+    color:white;
+}
+.back{
+    width: 30%;
+    height: 100px;
+    border:1px solid gray;
+    float:left;
+    margin-left: 300px;
+    margin-top: 10px;
+    font-family: AKbalthom Ream;
+    color:rgb(17, 16, 16);
+    text-align: justify;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 8px;
+    animation: 5s backgroundchang infinite;
+    border:none;
+    box-shadow: 5px 5px 5px gray;
+    padding:10px;
+}
+@keyframes backgroundchang {
+    0%{
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    }
+    50%{
+        background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+    }
+    100%{
+        background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    }
+    
+}
+.back1{
+    margin-top: 10px;
+    width: 30%;
+    height: 100px;
+    font-family: AKbalthom Ream;
+    color:rgb(17, 16, 16);
+    text-align: justify;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 8px;
+    animation: 5s backgroundchang infinite;
+    border:none;
+    box-shadow: 5px 5px 5px gray;
+    padding:10px;
+    float: right;
+}
+
+.map{
+    align-items: center;
+    padding-top: 50px;
+}
+.animation{
+    margin-bottom: 100px;
+}
